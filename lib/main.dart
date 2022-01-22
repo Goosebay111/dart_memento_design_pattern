@@ -35,7 +35,6 @@ class Life {
 class Memento {
   Memento(this.time);
   final String time;
-  String getSavedTime() {
-    return time;
-  }
+
+  String getSavedTime() => time;
 }
